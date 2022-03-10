@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+}
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgb(3, 3, 70);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    max-width: 600px;
+    color: #fff;
+    margin: 50px auto 0px auto;
+}
+
+.header{
+    text-align: center;
+    line-height: 0.5;
+    margin-bottom: 2rem;
+}
+
+.header p{
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+#survey-form{
+    background: rgb(3, 3, 70, 0.7);
+    padding: 2rem 2.5rem;
+    border-radius: 5px;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+#name-label{
+    margin-bottom: 1rem;
+}
+
+.form-group input{
+    width: 95%;
+    height: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+textarea{
+    width: 95%;
+    height: 5rem;
+    padding: 10px 10px ;
+    border-radius: 3px;
+    resize: none;
+    margin-bottom: 2rem;
+}
+
+#dropdown{
+    width: 100%;
+    height: 2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 100%;
+    height: 3rem;
+    border-radius: 1px;
+    background:#37af65;
+    color: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span{
+    font-size: 0.8rem;
+}
+ 
